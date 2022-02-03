@@ -1,4 +1,4 @@
-package phone;
+package Phone;
 
 import javax.swing.text.MaskFormatter;
 import java.text.ParseException;
