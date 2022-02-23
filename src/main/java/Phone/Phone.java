@@ -1,4 +1,4 @@
-package phone;
+package Phone;
 
 import javax.swing.text.MaskFormatter;
 import java.text.ParseException;
@@ -36,7 +36,7 @@ public class Phone {
         Boolean find = false;
         for (Map.Entry<String, String> user : phoneBook.entrySet()
         ) {
-            if (user.getValue() == lastName) {
+            if (user.getValue().equals(lastName)) {
                 System.out.println(user.getKey() + " " + user.getValue());
                 find = true;
             }
